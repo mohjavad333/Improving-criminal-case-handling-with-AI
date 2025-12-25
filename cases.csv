@@ -1,0 +1,9 @@
+crime_type,complexity,num_defendants,num_documents,text_length,case_text,processing_days
+
+fraud,high,3,25,1200,"financial fraud involving multiple fake documents and bank accounts",180
+theft,low,1,5,300,"simple theft case with one suspect",30
+assault,medium,2,12,600,"physical assault with two defendants and witness reports",75
+fraud,medium,2,18,850,"fraud case with forged contracts and financial investigation",110
+theft,low,1,4,280,"minor theft with clear evidence",25
+assault,high,4,30,1500,"severe assault case with multiple victims and medical reports",240
+fraud,low,1,6,400,"small scale fraud with limited financial loss",45

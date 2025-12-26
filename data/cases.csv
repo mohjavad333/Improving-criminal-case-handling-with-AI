@@ -1,0 +1,245 @@
+crime_type,complexity,num_defendants,num_documents,text_length,case_text,processing_days
+fraud,high,3,35,1450,"organized insurance fraud involving multiple shell companies",210
+theft,low,1,5,320,"simple shoplifting incident at a local grocery store",30
+assault,medium,2,14,750,"street fight involving two individuals with minor injuries",85
+cybercrime,high,4,58,1850,"complex phishing network targeting international bank accounts",280
+homicide,high,2,45,2100,"first-degree murder investigation with forensic evidence and witnesses",340
+drug_trafficking,medium,3,18,820,"distribution of controlled substances in local urban areas",120
+corruption,high,5,65,2250,"bribery involving public officials and large-scale state contracts",390
+money_laundering,high,4,60,1950,"transfer of illegal funds through offshore real estate investments",310
+burglary,medium,2,12,680,"residential break-in with stolen electronic equipment",95
+cybercrime,low,1,6,380,"unauthorized access to a private social media account",45
+drug_trafficking,high,6,68,2400,"international narcotics smuggling operation via maritime routes",385
+homicide,medium,1,22,950,"manslaughter case resulting from a reckless driving incident",145
+corruption,medium,2,19,880,"nepotism and small-scale embezzlement in a local municipality",130
+fraud,low,1,4,290,"identity theft involving a single credit card application",40
+assault,high,4,32,1600,"gang-related violent assault with multiple victims",260
+money_laundering,medium,2,24,920,"structuring cash deposits to evade financial reporting",140
+burglary,low,1,3,250,"attempted theft from a detached garage",35
+cybercrime,medium,2,20,850,"ransomware attack on a small business accounting system",115
+drug_trafficking,low,1,7,420,"possession of illegal substances with intent to distribute",55
+homicide,high,3,55,2300,"premeditated conspiracy to commit murder for financial gain",370
+corruption,low,1,5,350,"small bribe offered to a traffic enforcement officer",28
+fraud,medium,2,16,810,"forgery of real estate documents in a property sale",110
+assault,low,1,6,310,"verbal dispute leading to a physical push between neighbors",35
+money_laundering,low,1,8,480,"using a small business to wash minor criminal proceeds",58
+burglary,high,3,40,1750,"coordinated heist of a high-end jewelry store",285
+cybercrime,high,5,62,2100,"large-scale data breach of a retail customer database",330
+drug_trafficking,high,4,55,1900,"interstate distribution network of synthetic narcotics",295
+homicide,high,1,42,1850,"cold case murder investigation reopened with new DNA evidence",315
+corruption,high,4,58,2100,"systemic corruption in the allocation of mining licenses",355
+fraud,high,5,52,2000,"multinational ponzi scheme targeting elderly investors",345
+theft,medium,1,15,720,"theft of high-value tools from a construction site",105
+assault,medium,2,18,890,"domestic violence incident with repeated offenses reported",135
+money_laundering,high,6,70,2450,"complex network of front companies for cartel money",395
+burglary,medium,2,22,940,"organized theft of luxury vehicles from a private lot",145
+cybercrime,low,1,4,330,"defacement of a local government website",42
+drug_trafficking,medium,2,16,780,"smuggling of prescription drugs across state borders",118
+homicide,low,1,10,550,"accidental death involving negligence in a workplace",75
+corruption,medium,3,25,1100,"kickbacks in public procurement of medical supplies",160
+fraud,low,1,6,410,"online auction fraud involving non-existent goods",52
+assault,high,3,38,1550,"aggravated assault using a prohibited weapon",275
+money_laundering,medium,3,28,1050,"laundering of illegal gambling profits through casinos",155
+burglary,low,1,5,390,"theft of a bicycle from a locked residential porch",48
+cybercrime,medium,3,24,980,"unauthorized use of corporate data for industrial espionage",148
+drug_trafficking,high,5,50,1800,"cultivation and distribution of cannabis on a large scale",265
+homicide,high,2,48,2200,"double homicide case with multiple crime scenes",380
+corruption,high,6,72,2480,"political corruption involving campaign finance violations",398
+fraud,medium,2,22,960,"embezzlement of funds by a corporate accountant",142
+theft,low,1,4,270,"theft of a package from a residential doorstep",22
+assault,low,1,3,280,"minor scuffle at a public sporting event",30
+money_laundering,low,1,9,440,"purchasing high-value assets with undeclared cash",55
+burglary,high,4,45,1950,"professional safe-cracking at a commercial bank branch",320
+cybercrime,high,4,55,1780,"distributed denial of service (DDoS) attack on a bank",290
+drug_trafficking,low,1,5,340,"small scale sale of narcotics near a school zone",59
+homicide,medium,1,18,880,"death resulting from a violent robbery attempt",130
+corruption,low,1,6,320,"unauthorized use of official vehicle for personal gain",40
+fraud,high,4,48,1850,"credit card skimming ring operating in multiple cities",305
+theft,medium,2,14,690,"theft of copper wiring from a utility substation",112
+assault,medium,2,15,770,"bar fight involving several patrons and property damage",125
+money_laundering,medium,2,20,890,"inflating business invoices to conceal illegal income",135
+burglary,medium,1,18,820,"break-in at a pharmacy to steal controlled medications",140
+cybercrime,medium,1,15,740,"spear-phishing attack on a high-level executive",110
+drug_trafficking,high,3,45,1650,"operation of a clandestine synthetic drug laboratory",270
+homicide,high,2,50,2150,"contract killing involving a hired professional",385
+corruption,high,4,54,2050,"rigging of bids for large-scale infrastructure projects",360
+fraud,medium,1,18,870,"welfare fraud involving multiple false identities",128
+theft,low,1,3,240,"theft of a mobile phone from a public cafe",24
+assault,high,5,42,1720,"coordinated attack on a group during a protest",295
+money_laundering,high,5,64,2300,"layering of funds through a series of shell companies",375
+burglary,low,1,4,310,"theft of garden equipment from a backyard shed",38
+cybercrime,low,1,5,360,"credit card fraud using stolen online credentials",46
+drug_trafficking,medium,2,19,840,"trafficking of illegal substances via postal services",132
+homicide,low,1,12,620,"negligent homicide involving an unsecured firearm",88
+corruption,medium,2,22,980,"misuse of public funds for personal travel and luxury",152
+fraud,low,1,7,450,"telemarketing scam targeting vulnerable individuals",56
+theft,high,3,38,1620,"large-scale cargo theft from a shipping terminal",278
+assault,medium,1,12,680,"assault on a public official during an inspection",105
+money_laundering,medium,3,26,1080,"using cryptocurrency mixers to hide criminal origins",162
+burglary,high,2,35,1580,"theft of rare artwork from a private gallery",265
+cybercrime,high,6,70,2400,"state-sponsored hacking of critical infrastructure",395
+drug_trafficking,high,4,48,1750,"bulk transport of heroin across international borders",285
+homicide,high,3,60,2450,"serial killer investigation spanning multiple states",400
+corruption,high,5,62,2280,"bribery of judicial officials to influence court cases",375
+fraud,high,4,50,1920,"real estate investment fraud with fake development projects",335
+theft,medium,2,20,950,"organized retail crime targeting high-end clothing",145
+assault,low,1,4,350,"minor injury during a road rage confrontation",42
+money_laundering,low,1,7,410,"smurfing small amounts of cash into bank accounts",52
+burglary,medium,2,16,790,"commercial burglary of an electronics warehouse",125
+cybercrime,medium,2,22,910,"identity theft through a fake website portal",138
+drug_trafficking,low,1,6,370,"street-level dealing of prescription painkillers",54
+homicide,medium,1,25,1100,"death caused by excessive force during an altercation",155
+corruption,low,1,4,290,"accepting a small gift in exchange for a permit",32
+fraud,medium,2,24,1020,"check kiting scheme between multiple bank accounts",158
+theft,low,1,5,340,"theft of loose change and items from an unlocked car",35
+assault,high,4,45,1850,"severe beating involving permanent physical disability",310
+money_laundering,high,4,58,2150,"cleansing drug money through a chain of car washes",345
+burglary,low,1,3,270,"forced entry into a residential basement storage",36
+cybercrime,high,3,48,1700,"theft of intellectual property from a tech company",260
+drug_trafficking,medium,3,28,1150,"distribution of illicit drugs at a music festival",165
+homicide,high,2,55,2350,"poisoning case involving a complex toxicological study",390
+corruption,high,4,56,2080,"embezzlement of disaster relief funds by officials",365
+fraud,low,1,8,490,"fraudulent return of merchandise at a retail chain",58
+theft,medium,1,18,860,"theft of laptop computers from a university library",132
+assault,medium,2,14,730,"assault on a security guard during a trespassing event",115
+money_laundering,medium,2,21,940,"back-to-back loan schemes to hide illegal capital",148
+burglary,high,5,52,2100,"theft of sensitive documents from a law firm office",335
+cybercrime,low,1,6,420,"spam campaign used to spread minor malware",54
+drug_trafficking,high,6,70,2450,"operation of a multi-state drug distribution cartel",398
+homicide,medium,2,20,980,"death resulting from a violent domestic dispute",142
+corruption,medium,3,26,1120,"extortion of small business owners by local inspectors",168
+fraud,high,3,42,1680,"fraudulent claims for government subsidies and grants",275
+theft,low,1,4,300,"theft of a wallet from a gym locker",28
+assault,low,1,5,380,"minor injury sustained during a neighborhood brawl",45
+money_laundering,low,1,6,390,"integrating small cash amounts into a vending business",48
+burglary,medium,1,14,710,"burglary of a liquor store during late hours",110
+cybercrime,high,5,65,2200,"cyber-extortion against a major financial institution",355
+drug_trafficking,low,1,8,460,"possession of marijuana exceeding legal limits",60
+homicide,high,1,45,2000,"unsolved homicide with complex forensic challenges",340
+corruption,high,5,68,2350,"corruption in the awarding of national energy contracts",385
+fraud,medium,1,19,920,"insurance fraud involving a staged vehicle accident",138
+theft,high,2,36,1550,"theft of construction machinery from a secure site",265
+assault,high,3,40,1750,"physical assault resulting in life-threatening injuries",320
+money_laundering,high,6,72,2500,"global money laundering ring for cyber-criminals",400
+burglary,low,1,4,330,"theft of personal mail and documents from a mailbox",40
+cybercrime,medium,2,18,830,"skimming of bank cards at an automated teller machine",125
+drug_trafficking,medium,2,22,960,"trafficking of narcotics through a ride-share network",145
+homicide,low,1,11,580,"accidental shooting due to improper gun storage",82
+corruption,low,1,5,340,"minor bribe for expediting a passport application",38
+fraud,high,4,55,1980,"large scale mortgage fraud involving multiple properties",350
+theft,medium,1,16,810,"theft of high-end mountain bikes from a retail shop",128
+assault,medium,2,15,790,"assault with a dangerous object during a bar fight",122
+money_laundering,medium,3,28,1100,"investing criminal proceeds into a local sports club",160
+burglary,high,3,42,1800,"armed robbery and burglary of a residential estate",295
+cybercrime,high,4,52,1900,"insider threat leaking sensitive government information",310
+drug_trafficking,high,5,58,2100,"importation of precursor chemicals for drug production",330
+homicide,high,2,52,2250,"homicide investigation involving a missing person",375
+corruption,high,6,70,2420,"widespread corruption within a national police force",392
+fraud,medium,2,20,950,"charity fraud soliciting donations for fake causes",145
+theft,low,1,5,370,"shoplifting of high-value cosmetics and perfumes",42
+assault,low,1,3,290,"minor injury from a push during a heated argument",32
+money_laundering,low,1,8,430,"using art purchases to launder small illegal gains",55
+burglary,medium,2,18,880,"break-in at a school and theft of computer equipment",135
+cybercrime,low,1,5,390,"unauthorized use of a neighbor's Wi-Fi network",48
+drug_trafficking,medium,1,14,750,"selling illegal drugs through social media platforms",115
+homicide,medium,1,24,1050,"death resulting from a high-speed police pursuit",158
+corruption,medium,2,24,1020,"bribery for favorable zoning and land use decisions",155
+fraud,low,1,6,440,"fraudulent use of a lost debit card for small buys",52
+theft,high,4,48,1850,"theft of historical artifacts from a museum storage",345
+assault,high,5,55,2000,"violent clash between rival groups with many injuries",360
+money_laundering,high,4,56,2050,"laundering ransom payments through crypto-assets",355
+burglary,low,1,5,360,"theft of outdoor furniture from a residential patio",45
+cybercrime,high,3,45,1650,"hacking of a hospital's patient records database",285
+drug_trafficking,high,4,54,1950,"distribution of fentanyl resulting in multiple deaths",325
+homicide,high,3,58,2400,"triple homicide case linked to organized crime",395
+corruption,high,5,65,2300,"political embezzlement of municipal development funds",380
+fraud,medium,1,17,840,"falsifying medical records for insurance payouts",132
+theft,medium,2,14,760,"theft of auto parts from multiple vehicles in a lot",118
+assault,medium,1,13,720,"assault on a teacher by a student's parent",110
+money_laundering,medium,2,22,980,"using a shell company for fake consulting services",152
+burglary,high,2,38,1700,"theft of safe deposit boxes from a private vault",275
+cybercrime,medium,2,20,890,"unauthorized transfer of funds via mobile banking",135
+drug_trafficking,low,1,7,410,"possession of heroin and drug paraphernalia",58
+homicide,low,1,14,680,"death caused by failure to provide medical care",95
+corruption,low,1,6,330,"giving a small gift to avoid a building code fine",40
+fraud,high,5,60,2200,"multi-level marketing scam with thousands of victims",385
+theft,low,1,4,310,"theft of a briefcase from a parked car",35
+assault,low,1,3,260,"minor injury during a public park scuffle",28
+money_laundering,low,1,9,470,"buying and selling gold to hide origin of funds",60
+burglary,medium,1,16,840,"theft of tools and equipment from a local workshop",128
+cybercrime,high,4,58,2100,"cyber-espionage targeting a defense contractor",365
+drug_trafficking,high,5,62,2300,"trafficking of methamphetamine across state lines",375
+homicide,high,2,48,2150,"homicide with a focus on bloodstain pattern analysis",355
+corruption,high,4,52,2050,"bribery of environmental inspectors at a factory",330
+fraud,medium,2,25,1100,"identity theft involving 50+ compromised accounts",165
+theft,medium,1,18,920,"organized theft of catalytic converters in a city",142
+assault,medium,2,16,810,"assault on a transit worker during a fare dispute",125
+money_laundering,medium,3,30,1200,"using real estate flips to clean criminal cash",175
+burglary,high,3,44,1850,"burglary of a federal building and theft of laptops",315
+cybercrime,low,1,4,350,"minor harassment and stalking via email",42
+drug_trafficking,medium,2,20,940,"illegal distribution of steroids at local gyms",138
+homicide,medium,1,22,980,"death resulting from a drive-by shooting incident",148
+corruption,medium,3,28,1150,"bid-rigging for local school busing contracts",172
+fraud,low,1,7,460,"fraudulent listing of a rental property online",55
+theft,high,3,40,1750,"industrial theft of proprietary manufacturing parts",290
+assault,high,4,48,1950,"assault involving kidnapping and long-term restraint",350
+money_laundering,high,5,66,2350,"layering drug proceeds through a chain of hotels",385
+burglary,low,1,5,380,"attempted entry into a residential pantry storage",48
+cybercrime,high,5,62,2250,"malware attack on a city's public utility systems",370
+drug_trafficking,high,4,56,2050,"operation of an illegal online marketplace for drugs",340
+homicide,high,3,62,2480,"homicide with a focus on digital footprint analysis",398
+corruption,high,6,72,2500,"systemic corruption in a national healthcare system",400
+fraud,medium,2,22,1050,"tax evasion involving multiple undeclared accounts",158
+theft,low,1,4,290,"theft of a backpack from a library",32
+assault,low,1,3,270,"shoving match at a crowded subway station",30
+money_laundering,low,1,8,440,"concealing illegal tips and kickbacks in a business",58
+burglary,medium,2,19,920,"burglary of an office complex during the weekend",140
+cybercrime,medium,1,16,780,"unauthorized use of a company's credit card info",118
+drug_trafficking,low,1,6,390,"possession of cocaine with intent to sell",54
+homicide,medium,1,19,900,"death resulting from a home invasion gone wrong",135
+corruption,low,1,5,350,"bribery for a favorable health inspection score",42
+fraud,high,4,52,2000,"securities fraud involving falsified company reports",360
+theft,medium,1,17,850,"theft of high-end appliances from a warehouse",132
+assault,medium,2,14,760,"physical assault with a weapon in a public park",120
+money_laundering,medium,3,26,1100,"using fake prize winnings to launder illegal cash",165
+burglary,high,3,45,1900,"coordinated burglary of multiple units in a complex",310
+cybercrime,high,4,55,2050,"data theft from a cloud storage provider",345
+drug_trafficking,high,5,60,2250,"smuggling of narcotics inside commercial cargo",370
+homicide,high,2,54,2300,"murder involving a focus on entomological evidence",385
+corruption,high,5,68,2400,"embezzlement of social security funds by officials",395
+fraud,medium,1,18,880,"fraudulent insurance claim for a stolen vehicle",138
+theft,low,1,5,330,"theft of decorative items from a front yard",38
+assault,low,1,4,310,"minor assault during a political demonstration",45
+money_laundering,low,1,7,420,"using a laundry service to wash criminal money",52
+burglary,medium,1,15,800,"burglary of a tobacco shop after hours",125
+cybercrime,low,1,5,380,"social engineering attack on a single individual",46
+drug_trafficking,medium,2,18,870,"selling ecstasy at a private house party",128
+homicide,medium,1,21,950,"death resulting from a reckless use of machinery",142
+corruption,medium,2,25,1080,"kickbacks for awarding maintenance contracts",162
+fraud,low,1,8,470,"fraudulent subscription sign-ups using stolen IDs",58
+theft,high,2,35,1600,"theft of copper piping from a large apartment complex",275
+assault,high,3,42,1800,"assault with serious head injuries and trauma",315
+money_laundering,high,4,58,2150,"cleansing money via a complex chain of trade",355
+burglary,low,1,4,300,"theft of cleaning supplies from a janitor closet",35
+cybercrime,high,5,64,2300,"ransomware attack on a municipal police department",385
+drug_trafficking,high,4,52,2000,"distribution of synthetic opioids via dark web",335
+homicide,high,3,60,2450,"premeditated murder involving complex forensics",398
+corruption,high,5,66,2350,"corruption in a national airline's procurement",390
+fraud,medium,2,21,1020,"identity theft targeting college students",155
+theft,low,1,4,280,"theft of a bicycle from a school campus",32
+assault,low,1,3,260,"minor scuffle between two commuters on a bus",28
+money_laundering,low,1,8,450,"using small-scale retail sales to hide origins",56
+burglary,medium,2,17,890,"burglary of a vet clinic to steal narcotics",135
+cybercrime,medium,1,15,760,"unauthorized access to personal cloud storage",112
+drug_trafficking,low,1,7,430,"street dealing of meth in a residential area",58
+homicide,medium,1,18,880,"death from a fight involving a blunt object",132
+corruption,low,1,5,340,"minor bribe to a customs official at the airport",40
+fraud,high,4,54,2050,"complex check fraud ring targeting small banks",365
+theft,medium,1,16,840,"theft of power tools from a landscaping truck",128
+assault,medium,2,15,800,"assault on a colleague at a workplace event",122
+money_laundering,medium,3,28,1150,"buying and selling sports memorabilia for cash",168
+burglary,high,3,44,1880,"burglary of a high-security storage facility",318
+cybercrime,high,4,50,1950,"insider trading based on hacked financial data",325
+drug_trafficking,high,5,58,2150,"trafficking of cocaine through a car dealership",345
+homicide,high,2,55,2350,"homicide with a focus on ballistics and firearms",388
+corruption,high,6,70,2450,"embezzlement of public funds for a stadium bu

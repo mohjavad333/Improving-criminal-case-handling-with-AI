@@ -1,9 +1,249 @@
 crime_type,complexity,num_defendants,num_documents,text_length,case_text,processing_days
-
-fraud,high,3,25,1200,"financial fraud involving multiple fake documents and bank accounts",180
-theft,low,1,5,300,"simple theft case with one suspect",30
-assault,medium,2,12,600,"physical assault with two defendants and witness reports",75
-fraud,medium,2,18,850,"fraud case with forged contracts and financial investigation",110
-theft,low,1,4,280,"minor theft with clear evidence",25
-assault,high,4,30,1500,"severe assault case with multiple victims and medical reports",240
-fraud,low,1,6,400,"small scale fraud with limited financial loss",45
+homicide,high,6,34,1147,negligent homicide involving an unsecured firearm,226
+fraud,high,2,67,2317,embezzlement of funds by a corporate accountant,192
+burglary,medium,3,25,901,theft of a bicycle from a locked residential porch,111
+burglary,high,5,69,2229,organized theft of luxury vehicles from a private lot,275
+money_laundering,high,4,62,1915,purchasing high-value assets with undeclared cash,179
+money_laundering,high,4,66,1291,laundering of illegal gambling profits through casinos,240
+assault,low,2,5,257,bar fight involving several patrons and property damage,31
+cybercrime,low,2,10,311,large-scale data breach of a retail customer database,55
+corruption,medium,1,16,918,unauthorized use of official vehicle for personal gain,89
+corruption,medium,3,10,706,systemic corruption in the allocation of mining licenses,101
+burglary,high,5,47,2011,residential break-in with stolen electronic equipment,178
+corruption,high,4,67,1434,bribery of judicial officials to influence court cases,335
+theft,low,2,2,333,large-scale cargo theft from a shipping terminal,52
+money_laundering,medium,3,14,567,purchasing high-value assets with undeclared cash,71
+corruption,medium,3,12,796,bribery involving public officials and state contracts,113
+fraud,medium,3,24,948,forgery of real estate documents in a property sale,93
+cybercrime,high,2,56,1260,unauthorized use of corporate data for industrial espionage,161
+homicide,medium,1,12,727,first-degree murder investigation with forensic evidence,136
+homicide,low,1,9,392,double homicide case with multiple crime scenes,30
+corruption,high,4,47,2026,political corruption involving campaign finance violations,330
+homicide,high,2,30,1956,negligent homicide involving an unsecured firearm,222
+corruption,medium,1,21,993,bribery of judicial officials to influence court cases,137
+assault,medium,1,25,502,coordinated attack on a group during a protest,119
+burglary,low,1,7,329,organized theft of luxury vehicles from a private lot,16
+drug_trafficking,low,1,10,210,bulk transport of heroin across international borders,55
+homicide,medium,3,13,846,premeditated conspiracy to commit murder for financial gain,148
+homicide,medium,1,19,659,manslaughter case from a reckless driving incident,81
+fraud,high,2,40,1114,multinational ponzi scheme targeting elderly investors,247
+drug_trafficking,medium,1,24,678,international narcotics smuggling via maritime routes,102
+homicide,low,1,9,401,double homicide case with multiple crime scenes,32
+burglary,low,2,2,448,organized theft of luxury vehicles from a private lot,57
+theft,high,2,55,1607,minor shoplifting incident caught on surveillance camera,229
+corruption,medium,2,15,618,systemic corruption in the allocation of mining licenses,109
+cybercrime,low,2,3,401,ransomware attack on a small business accounting system,30
+cybercrime,high,3,66,1323,distributed denial of service (DDoS) attack on a bank,250
+homicide,low,2,3,406,serial killer investigation spanning multiple states,31
+cybercrime,medium,1,23,604,large-scale data breach of a retail customer database,70
+theft,medium,3,13,565,organized retail crime targeting high-end clothing,139
+corruption,low,1,10,337,small bribe offered to a traffic enforcement officer,30
+theft,low,2,5,373,simple shoplifting incident at a local grocery store,18
+theft,high,5,35,1663,theft of high-value tools from a construction site,347
+theft,medium,2,11,966,theft of copper wiring from a utility substation,63
+burglary,high,3,68,2294,commercial burglary of an electronics warehouse,324
+drug_trafficking,high,2,34,2080,possession of illegal substances with intent to distribute,389
+drug_trafficking,low,2,2,414,possession of illegal substances with intent to distribute,37
+burglary,low,1,8,460,commercial burglary of an electronics warehouse,30
+corruption,high,4,66,1630,systemic corruption in the allocation of mining licenses,201
+cybercrime,low,2,4,479,distributed denial of service (DDoS) attack on a bank,59
+fraud,medium,3,25,930,telemarketing scam targeting vulnerable individuals,142
+cybercrime,high,4,48,2257,ransomware attack on a small business accounting system,329
+fraud,low,2,7,250,online auction fraud involving non-existent goods,44
+theft,high,3,56,1283,large-scale cargo theft from a shipping terminal,398
+homicide,medium,3,17,833,double homicide case with multiple crime scenes,135
+drug_trafficking,high,2,32,2343,interstate distribution network of synthetic narcotics,218
+homicide,medium,3,25,716,manslaughter case from a reckless driving incident,97
+money_laundering,high,5,69,2198,laundering of illegal gambling profits through casinos,331
+fraud,high,2,54,1888,multinational ponzi scheme targeting elderly investors,308
+drug_trafficking,medium,2,15,699,possession of illegal substances with intent to distribute,115
+theft,medium,3,19,926,minor shoplifting incident caught on surveillance camera,125
+homicide,high,2,49,1577,double homicide case with multiple crime scenes,259
+corruption,high,3,45,1166,political corruption involving campaign finance violations,189
+corruption,low,1,7,419,rigging of bids for large-scale infrastructure projects,24
+theft,medium,2,14,792,organized retail crime targeting high-end clothing,97
+corruption,high,3,68,2170,systemic corruption in the allocation of mining licenses,261
+assault,low,1,7,288,coordinated attack on a group during a protest,59
+fraud,medium,3,17,820,identity theft involving a single credit card application,130
+cybercrime,medium,1,16,632,state-sponsored hacking of critical infrastructure,61
+corruption,medium,2,11,947,rigging of bids for large-scale infrastructure projects,65
+cybercrime,low,1,7,390,distributed denial of service (DDoS) attack on a bank,45
+homicide,medium,1,23,551,manslaughter case from a reckless driving incident,116
+theft,low,1,4,307,simple shoplifting incident at a local grocery store,31
+burglary,low,1,5,355,organized theft of luxury vehicles from a private lot,54
+theft,low,2,3,222,organized retail crime targeting high-end clothing,29
+assault,medium,1,22,669,domestic violence incident with repeated offenses reported,105
+corruption,medium,2,21,780,kickbacks in public procurement of medical supplies,140
+drug_trafficking,high,4,69,2499,smuggling of prescription drugs across state borders,181
+drug_trafficking,high,3,31,1675,bulk transport of heroin across international borders,331
+homicide,low,1,8,229,manslaughter case from a reckless driving incident,30
+homicide,low,1,2,267,double homicide case with multiple crime scenes,51
+burglary,medium,3,11,617,organized theft of luxury vehicles from a private lot,91
+homicide,high,2,35,1218,first-degree murder investigation with forensic evidence,280
+assault,medium,2,18,531,bar fight involving several patrons and property damage,115
+theft,high,5,37,1891,theft of high-value tools from a construction site,360
+assault,low,1,6,354,domestic violence incident with repeated offenses reported,54
+money_laundering,medium,3,12,713,smurfing small amounts of cash into bank accounts,142
+assault,medium,1,12,658,bar fight involving several patrons and property damage,123
+corruption,high,5,52,2401,misuse of public funds for personal travel and luxury,211
+money_laundering,low,2,10,388,using cryptocurrency mixers to hide criminal origins,38
+corruption,high,2,25,1882,unauthorized use of official vehicle for personal gain,229
+corruption,low,2,6,275,kickbacks in public procurement of medical supplies,38
+cybercrime,low,2,2,367,state-sponsored hacking of critical infrastructure,28
+theft,medium,1,10,751,organized retail crime targeting high-end clothing,111
+drug_trafficking,high,2,40,2308,smuggling of prescription drugs across state borders,166
+theft,medium,2,25,758,simple shoplifting incident at a local grocery store,73
+money_laundering,low,1,4,475,using cryptocurrency mixers to hide criminal origins,28
+assault,medium,3,15,649,verbal dispute leading to a physical push between neighbors,137
+corruption,low,2,10,317,nepotism and small-scale embezzlement in local municipality,24
+homicide,low,2,10,211,manslaughter case from a reckless driving incident,31
+cybercrime,high,6,68,2315,unauthorized focus on corporate data for industrial espionage,316
+theft,high,3,38,1545,theft of high-value tools from a construction site,329
+fraud,high,2,31,1652,identity theft involving a single credit card application,298
+cybercrime,medium,1,23,548,unauthorized access to a private social media account,64
+money_laundering,low,1,4,286,using a small business to wash minor criminal proceeds,20
+burglary,low,1,4,272,break-in at a pharmacy to steal controlled medications,44
+money_laundering,medium,1,15,849,inflating business invoices to conceal illegal income,97
+fraud,low,1,4,260,embezzlement of funds by a corporate accountant,32
+fraud,high,2,54,1667,multinational ponzi scheme targeting elderly investors,202
+homicide,medium,2,16,688,death resulting from a violent robbery attempt,74
+theft,low,1,8,421,minor shoplifting incident caught on surveillance camera,21
+homicide,high,2,45,2198,serial killer investigation spanning multiple states,329
+drug_trafficking,low,1,6,354,operation of a clandestine synthetic drug laboratory,16
+assault,high,5,34,1839,gang-related violent assault with multiple victims,262
+drug_trafficking,high,3,34,1316,cultivation and distribution of cannabis on a large scale,188
+homicide,high,3,63,1695,first-degree murder investigation with forensic evidence,239
+burglary,low,1,7,214,commercial burglary of an electronics warehouse,34
+theft,medium,3,25,836,simple shoplifting incident at a local grocery store,92
+homicide,medium,3,13,858,premeditated conspiracy to commit murder for financial gain,74
+homicide,high,5,69,1447,manslaughter case from a reckless driving incident,160
+assault,low,1,10,396,street fight involving two individuals with minor injuries,17
+corruption,low,2,8,252,political corruption involving campaign finance violations,45
+fraud,high,3,27,1121,forgery of real estate documents in a property sale,274
+theft,medium,1,15,551,minor shoplifting incident caught on surveillance camera,103
+theft,medium,3,12,711,theft of a package from a residential doorstep,135
+burglary,medium,3,12,786,residential break-in with stolen electronic equipment,144
+homicide,low,1,10,230,double homicide case with multiple crime scenes,57
+fraud,medium,3,13,678,forgery of real estate documents in a property sale,107
+drug_trafficking,high,2,30,2270,distribution of controlled substances in local urban areas,371
+cybercrime,medium,1,22,625,ransomware attack on a small business accounting system,109
+burglary,medium,1,12,878,theft of a bicycle from a locked residential porch,128
+fraud,high,6,63,2229,online auction fraud involving non-existent goods,358
+homicide,low,2,3,408,double homicide case with multiple crime scenes,17
+cybercrime,high,5,44,2336,ransomware attack on a small business accounting system,381
+burglary,high,5,56,1925,theft of a bicycle from a locked residential porch,336
+theft,medium,1,21,902,minor shoplifting incident caught on surveillance camera,127
+money_laundering,medium,3,25,920,laundering of illegal gambling profits through casinos,125
+homicide,high,5,40,1547,manslaughter case from a reckless driving incident,305
+money_laundering,high,4,66,1344,complex network of front companies for cartel money,203
+money_laundering,low,2,5,372,using cryptocurrency mixers to hide criminal origins,24
+theft,medium,3,23,736,theft of a mobile phone from a public cafe,74
+money_laundering,high,2,63,2058,layering of funds through a series of shell companies,337
+cybercrime,low,2,9,394,spear-phishing attack on a high-level executive,44
+theft,medium,3,14,582,simple shoplifting incident at a local grocery store,132
+theft,low,2,7,472,theft of copper wiring from a utility substation,52
+drug_trafficking,high,6,62,1746,international narcotics smuggling via maritime routes,193
+corruption,high,4,50,2304,political corruption involving campaign finance violations,341
+cybercrime,high,3,41,2002,state-sponsored hacking of critical infrastructure,284
+homicide,high,2,31,1498,negligent homicide involving an unsecured firearm,222
+corruption,medium,2,19,956,systemic corruption in the allocation of mining licenses,61
+assault,high,6,35,2121,gang-related violent assault with multiple victims,208
+cybercrime,medium,2,14,849,state-sponsored hacking of critical infrastructure,136
+theft,low,1,3,411,theft of loose change and items from an unlocked car,41
+fraud,high,4,57,1758,identity theft involving a single credit card application,298
+cybercrime,medium,3,13,674,ransomware attack on a small business accounting system,70
+burglary,high,5,61,1521,residential break-in with stolen electronic equipment,373
+burglary,low,1,8,409,commercial burglary of an electronics warehouse,30
+burglary,medium,3,24,660,organized theft of luxury vehicles from a private lot,145
+money_laundering,medium,1,16,793,transfer of illegal funds through offshore real estate,81
+corruption,high,5,63,2220,unauthorized use of official vehicle for personal gain,234
+homicide,low,2,8,300,contract killing involving a hired professional,45
+assault,low,1,10,231,gang-related violent assault with multiple victims,30
+theft,high,5,53,1970,organized retail crime targeting high-end clothing,298
+drug_trafficking,low,1,4,484,interstate distribution network of synthetic narcotics,17
+corruption,low,1,3,467,rigging of bids for large-scale infrastructure projects,24
+drug_trafficking,medium,2,11,852,smuggling of prescription drugs across state borders,83
+money_laundering,high,3,32,1595,complex network of front companies for cartel money,244
+cybercrime,high,4,68,2385,large-scale data breach of a retail customer database,381
+assault,low,1,4,475,aggravated assault using a prohibited weapon,54
+theft,medium,3,25,934,theft of high-value tools from a construction site,111
+drug_trafficking,medium,1,13,853,cultivation and distribution of cannabis on a large scale,144
+burglary,high,6,45,2166,coordinated heist of a high-end jewelry store,292
+assault,medium,1,14,979,verbal dispute leading to a physical push between neighbors,136
+corruption,high,4,29,1452,kickbacks in public procurement of medical supplies,179
+money_laundering,low,2,6,373,smurfing small amounts of cash into bank accounts,34
+theft,high,6,54,1248,large-scale cargo theft from a shipping terminal,301
+drug_trafficking,high,2,42,1268,interstate distribution network of synthetic narcotics,214
+theft,medium,2,14,972,theft of high-value tools from a construction site,111
+burglary,high,3,27,2155,theft of rare artwork from a private gallery,352
+homicide,medium,3,10,753,double homicide case with multiple crime scenes,138
+assault,low,1,8,485,aggravated assault using a prohibited weapon,24
+theft,medium,3,14,642,theft of copper wiring from a utility substation,93
+cybercrime,low,1,2,260,ransomware attack on a small business accounting system,42
+money_laundering,high,2,28,1542,laundering of illegal gambling profits through casinos,336
+fraud,low,2,5,225,identity theft involving a single credit card application,52
+drug_trafficking,high,3,38,1552,international narcotics smuggling via maritime routes,193
+assault,low,2,5,248,gang-related violent assault with multiple victims,41
+drug_trafficking,high,6,61,2414,smuggling of prescription drugs across state borders,366
+corruption,medium,2,16,692,unauthorized use of official vehicle for personal gain,112
+corruption,medium,3,17,552,kickbacks in public procurement of medical supplies,109
+money_laundering,low,1,4,296,structuring cash deposits to evade financial reporting,54
+fraud,medium,2,23,618,organized insurance fraud involving multiple shell companies,111
+money_laundering,high,2,53,2308,smurfing small amounts of cash into bank accounts,211
+drug_trafficking,high,3,44,1973,international narcotics smuggling via maritime routes,352
+burglary,low,1,6,358,theft of a bicycle from a locked residential porch,30
+money_laundering,medium,1,20,539,using a small business to wash minor criminal proceeds,139
+corruption,low,2,4,476,systemic corruption in the allocation of mining licenses,21
+homicide,high,4,40,1111,premeditated conspiracy to commit murder for financial gain,171
+fraud,low,2,4,401,telemarketing scam targeting vulnerable individuals,52
+theft,high,5,69,1447,organized retail crime targeting high-end clothing,310
+burglary,medium,1,16,684,residential break-in with stolen electronic equipment,64
+theft,medium,2,20,859,simple shoplifting incident at a local grocery store,109
+money_laundering,high,4,66,1288,purchasing high-value assets with undeclared cash,251
+homicide,medium,2,16,777,negligent homicide involving an unsecured firearm,135
+homicide,low,1,4,290,manslaughter case from a reckless driving incident,24
+assault,medium,1,10,958,street fight involving two individuals with minor injuries,144
+homicide,low,1,5,372,cold case murder investigation reopened with new DNA evidence,17
+cybercrime,high,2,30,1130,state-sponsored hacking of critical infrastructure,281
+drug_trafficking,low,1,9,425,operation of a clandestine synthetic drug laboratory,18
+money_laundering,medium,3,25,953,using cryptocurrency mixers to hide criminal origins,91
+homicide,medium,3,14,567,manslaughter case from a reckless driving incident,119
+homicide,high,2,34,1630,negligent homicide involving an unsecured firearm,222
+burglary,medium,2,24,662,coordinated heist of a high-end jewelry store,109
+theft,low,1,9,211,theft of high-value tools from a construction site,41
+money_laundering,high,4,58,1607,using a small business to wash minor criminal proceeds,381
+money_laundering,high,5,56,1260,layering of funds through a series of shell companies,337
+assault,medium,3,23,556,verbal dispute leading to a physical push between neighbors,137
+fraud,medium,1,12,796,organized insurance fraud involving multiple shell companies,74
+assault,high,6,27,1121,aggravated assault using a prohibited weapon,274
+assault,low,1,2,307,gang-related violent assault with multiple victims,31
+theft,low,2,5,355,large-scale cargo theft from a shipping terminal,54
+homicide,low,1,7,419,double homicide case with multiple crime scenes,24
+theft,high,5,63,2220,organized retail crime targeting high-end clothing,234
+fraud,low,2,7,450,embezzlement of funds by a corporate accountant,56
+money_laundering,medium,3,25,953,layering of funds through a series of shell companies,91
+drug_trafficking,low,2,5,330,smuggling of prescription drugs across state borders,34
+burglary,high,3,27,2155,residential break-in with stolen electronic equipment,352
+homicide,low,2,8,300,premeditated conspiracy to commit murder for financial gain,45
+assault,high,4,30,2270,gang-related violent assault with multiple victims,371
+fraud,high,2,54,1667,identity theft involving a single credit card application,202
+drug_trafficking,high,3,44,1973,distribution of controlled substances in local urban areas,352
+theft,medium,1,21,902,theft of a mobile phone from a public cafe,127
+money_laundering,high,2,63,2058,inflating business invoices to conceal illegal income,337
+cybercrime,low,2,4,479,distributed denial of service (DDoS) attack on a bank,59
+theft,high,5,35,1663,organized retail crime targeting high-end clothing,347
+theft,low,2,5,373,theft of high-value tools from a construction site,18
+theft,medium,3,13,565,theft of a package from a residential doorstep,139
+corruption,low,1,10,337,small bribe offered to a traffic enforcement officer,30
+theft,low,2,3,222,simple shoplifting incident at a local grocery store,29
+assault,medium,1,22,669,bar fight involving several patrons and property damage,105
+corruption,medium,2,15,618,systemic corruption in the allocation of mining licenses,109
+cybercrime,high,4,48,2257,state-sponsored hacking of critical infrastructure,329
+homicide,medium,3,17,833,manslaughter case from a reckless driving incident,135
+burglary,high,5,69,2229,theft of rare artwork from a private gallery,275
+money_laundering,high,4,62,1915,complex network of front companies for cartel money,179
+homicide,high,6,34,1147,first-degree murder investigation with forensic evidence,226
+fraud,high,2,67,2317,organized insurance fraud involving multiple shell companies,192
+burglary,medium,3,25,901,commercial burglary of an electronics warehouse,111
+money_laundering,high,4,66,1291,using cryptocurrency mixers to hide criminal origins,240
+assault,low,2,5,257,verbal dispute leading to a physical push between neighbors,31

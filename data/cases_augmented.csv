@@ -1,0 +1,376 @@
+crime_type,complexity,num_defendants,num_documents,text_length,case_text,processing_days
+fraud,high,3.0,25.0,1200.0,financial fraud involving multiple fake documents and bank accounts,180.0
+fraud,high,3.0,25.0,47.0,financial deception involving falsified records,185.0
+theft,low,1.0,5.0,300.0,simple theft case with one suspect,30.0
+theft,low,1.0,5.0,31.0,unauthorized taking of property,27.0
+assault,medium,2.0,12.0,600.0,physical assault with two defendants and witness reports,75.0
+assault,medium,2.0,12.0,46.0,physical attack involving multiple individuals,78.0
+fraud,medium,2.0,18.0,850.0,fraud case with forged contracts and financial investigation,110.0
+fraud,medium,2.0,18.0,47.0,financial deception involving falsified records,101.0
+theft,low,1.0,4.0,280.0,minor theft with clear evidence,25.0
+theft,low,1.0,4.0,31.0,unauthorized taking of property,15.0
+assault,high,4.0,30.0,1500.0,severe assault case with multiple victims and medical reports,240.0
+assault,high,4.0,30.0,38.0,violent assault with reported injuries,234.0
+fraud,low,1.0,6.0,400.0,small scale fraud with limited financial loss,45.0
+fraud,low,1.0,6.0,41.0,economic fraud with manipulated documents,50.0
+theft,medium,1.0,17.0,811.0,organized retail theft incident,96.0
+theft,medium,1.0,17.0,38.0,illegal stealing with minimal evidence,87.0
+theft,low,1.0,8.0,346.0,minor theft with clear evidence,48.0
+theft,low,1.0,8.0,31.0,unauthorized taking of property,56.0
+theft,low,1.0,6.0,362.0,bicycle theft from residential area,24.0
+theft,low,1.0,6.0,31.0,unauthorized taking of property,19.0
+theft,medium,2.0,17.0,551.0,theft of high-value electronics,111.0
+theft,medium,2.0,17.0,38.0,illegal stealing with minimal evidence,110.0
+fraud,low,1.0,8.0,295.0,small scale fraud with limited financial loss,23.0
+fraud,low,1.0,8.0,47.0,financial deception involving falsified records,27.0
+theft,low,1.0,8.0,351.0,simple theft case with one suspect,59.0
+theft,low,1.0,8.0,38.0,illegal stealing with minimal evidence,64.0
+fraud,high,4.0,38.0,1681.0,international financial fraud network,224.0
+fraud,high,4.0,38.0,41.0,economic fraud with manipulated documents,215.0
+theft,high,2.0,55.0,1674.0,coordinated warehouse robbery,225.0
+theft,high,2.0,55.0,31.0,unauthorized taking of property,233.0
+theft,medium,2.0,14.0,760.0,theft case involving multiple stolen items,132.0
+theft,medium,2.0,14.0,38.0,illegal stealing with minimal evidence,136.0
+fraud,high,2.0,53.0,1861.0,complex money laundering operation,271.0
+fraud,high,2.0,53.0,41.0,economic fraud with manipulated documents,269.0
+assault,high,3.0,28.0,1726.0,aggravated assault with a deadly weapon,270.0
+assault,high,3.0,28.0,46.0,physical attack involving multiple individuals,266.0
+assault,low,1.0,3.0,396.0,verbal altercation leading to minor scuffle,36.0
+assault,low,1.0,3.0,46.0,physical attack involving multiple individuals,31.0
+assault,high,2.0,44.0,1192.0,aggravated assault with a deadly weapon,219.0
+assault,high,2.0,44.0,38.0,violent assault with reported injuries,221.0
+assault,low,1.0,4.0,394.0,verbal altercation leading to minor scuffle,49.0
+assault,low,1.0,4.0,38.0,violent assault with reported injuries,54.0
+fraud,low,1.0,4.0,212.0,minor credit card fraud,38.0
+fraud,low,1.0,4.0,41.0,economic fraud with manipulated documents,42.0
+assault,high,5.0,47.0,1888.0,severe assault case with multiple victims and medical reports,214.0
+assault,high,5.0,47.0,46.0,physical attack involving multiple individuals,208.0
+fraud,high,3.0,34.0,1272.0,complex money laundering operation,229.0
+fraud,high,3.0,34.0,47.0,financial deception involving falsified records,230.0
+assault,high,5.0,43.0,1289.0,severe assault case with multiple victims and medical reports,286.0
+assault,high,5.0,43.0,38.0,violent assault with reported injuries,293.0
+theft,low,1.0,4.0,215.0,shoplifting at a retail store,52.0
+theft,low,1.0,4.0,31.0,unauthorized taking of property,57.0
+fraud,high,5.0,25.0,1692.0,complex money laundering operation,321.0
+fraud,high,5.0,25.0,47.0,financial deception involving falsified records,328.0
+fraud,medium,2.0,16.0,597.0,fraud case with forged contracts and financial investigation,108.0
+fraud,medium,2.0,16.0,47.0,financial deception involving falsified records,101.0
+assault,low,1.0,5.0,244.0,dispute between neighbors resulting in a push,39.0
+assault,low,1.0,5.0,38.0,violent assault with reported injuries,41.0
+assault,high,4.0,44.0,1569.0,gang-related violent assault,202.0
+assault,high,4.0,44.0,46.0,physical attack involving multiple individuals,204.0
+theft,low,1.0,8.0,272.0,shoplifting at a retail store,37.0
+theft,low,1.0,8.0,38.0,illegal stealing with minimal evidence,43.0
+fraud,high,2.0,49.0,1976.0,large scale embezzlement scheme,244.0
+fraud,high,2.0,49.0,41.0,economic fraud with manipulated documents,236.0
+assault,high,5.0,57.0,1491.0,severe assault case with multiple victims and medical reports,261.0
+assault,high,5.0,57.0,46.0,physical attack involving multiple individuals,260.0
+assault,medium,2.0,19.0,913.0,street brawl with several witnesses,131.0
+assault,medium,2.0,19.0,38.0,violent assault with reported injuries,122.0
+theft,high,5.0,57.0,1668.0,theft of rare collectibles with expert planning,218.0
+theft,high,5.0,57.0,38.0,illegal stealing with minimal evidence,208.0
+assault,high,3.0,54.0,1997.0,aggravated assault with a deadly weapon,282.0
+assault,high,3.0,54.0,46.0,physical attack involving multiple individuals,272.0
+assault,high,4.0,39.0,1100.0,gang-related violent assault,221.0
+assault,high,4.0,39.0,38.0,violent assault with reported injuries,221.0
+assault,low,1.0,7.0,371.0,simple assault with no serious injuries,30.0
+assault,low,1.0,7.0,46.0,physical attack involving multiple individuals,20.0
+assault,medium,1.0,12.0,956.0,street brawl with several witnesses,119.0
+assault,medium,1.0,12.0,38.0,violent assault with reported injuries,116.0
+theft,high,4.0,53.0,1111.0,grand theft auto involving a syndicate,193.0
+theft,high,4.0,53.0,31.0,unauthorized taking of property,199.0
+theft,medium,1.0,20.0,523.0,theft case involving multiple stolen items,98.0
+theft,medium,1.0,20.0,38.0,illegal stealing with minimal evidence,90.0
+fraud,high,4.0,36.0,1653.0,international financial fraud network,238.0
+fraud,high,4.0,36.0,41.0,economic fraud with manipulated documents,248.0
+fraud,high,5.0,29.0,1602.0,complex money laundering operation,322.0
+fraud,high,5.0,29.0,41.0,economic fraud with manipulated documents,323.0
+theft,medium,1.0,14.0,919.0,theft of high-value electronics,72.0
+theft,medium,1.0,14.0,38.0,illegal stealing with minimal evidence,81.0
+theft,medium,1.0,18.0,529.0,burglary of a residential property,103.0
+theft,medium,1.0,18.0,38.0,illegal stealing with minimal evidence,111.0
+fraud,high,4.0,34.0,1243.0,complex money laundering operation,343.0
+fraud,high,4.0,34.0,47.0,financial deception involving falsified records,334.0
+theft,low,1.0,3.0,271.0,bicycle theft from residential area,57.0
+theft,low,1.0,3.0,38.0,illegal stealing with minimal evidence,47.0
+theft,medium,2.0,14.0,613.0,theft case involving multiple stolen items,73.0
+theft,medium,2.0,14.0,38.0,illegal stealing with minimal evidence,80.0
+theft,low,1.0,3.0,443.0,shoplifting at a retail store,41.0
+theft,low,1.0,3.0,31.0,unauthorized taking of property,39.0
+theft,high,3.0,56.0,1485.0,high-value jewelry heist,185.0
+theft,high,3.0,56.0,31.0,unauthorized taking of property,188.0
+assault,high,4.0,33.0,1828.0,assault resulting in critical injuries and long-term care,201.0
+assault,high,4.0,33.0,38.0,violent assault with reported injuries,199.0
+fraud,low,1.0,3.0,344.0,minor credit card fraud,40.0
+fraud,low,1.0,3.0,47.0,financial deception involving falsified records,34.0
+assault,high,2.0,43.0,1543.0,gang-related violent assault,177.0
+assault,high,2.0,43.0,38.0,violent assault with reported injuries,183.0
+assault,high,5.0,52.0,1572.0,aggravated assault with a deadly weapon,213.0
+assault,high,5.0,52.0,38.0,violent assault with reported injuries,220.0
+theft,low,1.0,3.0,281.0,simple theft case with one suspect,60.0
+theft,low,1.0,3.0,31.0,unauthorized taking of property,59.0
+fraud,medium,2.0,16.0,999.0,identity theft with multiple accounts,81.0
+fraud,medium,2.0,16.0,41.0,economic fraud with manipulated documents,71.0
+theft,medium,2.0,13.0,969.0,burglary of a residential property,87.0
+theft,medium,2.0,13.0,38.0,illegal stealing with minimal evidence,96.0
+theft,medium,1.0,12.0,776.0,burglary of a residential property,97.0
+theft,medium,1.0,12.0,38.0,illegal stealing with minimal evidence,87.0
+fraud,low,1.0,5.0,296.0,small scale online scam,35.0
+fraud,low,1.0,5.0,47.0,financial deception involving falsified records,41.0
+assault,medium,1.0,17.0,942.0,bar fight involving multiple participants,119.0
+assault,medium,1.0,17.0,38.0,violent assault with reported injuries,118.0
+assault,high,3.0,58.0,1386.0,aggravated assault with a deadly weapon,287.0
+assault,high,3.0,58.0,46.0,physical attack involving multiple individuals,291.0
+assault,low,1.0,3.0,270.0,dispute between neighbors resulting in a push,26.0
+assault,low,1.0,3.0,46.0,physical attack involving multiple individuals,31.0
+theft,medium,1.0,14.0,799.0,organized retail theft incident,76.0
+theft,medium,1.0,14.0,38.0,illegal stealing with minimal evidence,73.0
+fraud,high,3.0,48.0,1236.0,international financial fraud network,172.0
+fraud,high,3.0,48.0,41.0,economic fraud with manipulated documents,174.0
+fraud,medium,1.0,14.0,586.0,fraud case involving forged contracts,110.0
+fraud,medium,1.0,14.0,41.0,economic fraud with manipulated documents,113.0
+theft,medium,2.0,11.0,505.0,burglary of a residential property,113.0
+theft,medium,2.0,11.0,38.0,illegal stealing with minimal evidence,104.0
+fraud,high,5.0,31.0,1850.0,financial fraud involving multiple fake documents and bank accounts,229.0
+fraud,high,5.0,31.0,41.0,economic fraud with manipulated documents,239.0
+assault,low,1.0,4.0,383.0,simple assault with no serious injuries,28.0
+assault,low,1.0,4.0,46.0,physical attack involving multiple individuals,29.0
+fraud,high,5.0,60.0,1756.0,large scale embezzlement scheme,304.0
+fraud,high,5.0,60.0,47.0,financial deception involving falsified records,303.0
+assault,low,1.0,3.0,228.0,minor physical confrontation,24.0
+assault,low,1.0,3.0,46.0,physical attack involving multiple individuals,29.0
+fraud,medium,2.0,10.0,886.0,insurance fraud investigation,86.0
+fraud,medium,2.0,10.0,41.0,economic fraud with manipulated documents,88.0
+fraud,high,3.0,59.0,1129.0,financial fraud involving multiple fake documents and bank accounts,233.0
+fraud,high,3.0,59.0,47.0,financial deception involving falsified records,224.0
+theft,high,3.0,60.0,1527.0,grand theft auto involving a syndicate,190.0
+theft,high,3.0,60.0,31.0,unauthorized taking of property,183.0
+theft,high,4.0,41.0,1249.0,high-value jewelry heist,237.0
+theft,high,4.0,41.0,31.0,unauthorized taking of property,246.0
+assault,low,1.0,5.0,490.0,minor physical confrontation,29.0
+assault,low,1.0,5.0,46.0,physical attack involving multiple individuals,24.0
+assault,medium,1.0,10.0,650.0,bar fight involving multiple participants,92.0
+assault,medium,1.0,10.0,38.0,violent assault with reported injuries,92.0
+theft,medium,1.0,18.0,913.0,theft case involving multiple stolen items,94.0
+theft,medium,1.0,18.0,38.0,illegal stealing with minimal evidence,88.0
+fraud,medium,1.0,20.0,751.0,insurance fraud investigation,71.0
+fraud,medium,1.0,20.0,47.0,financial deception involving falsified records,69.0
+fraud,high,5.0,31.0,1588.0,large scale embezzlement scheme,224.0
+fraud,high,5.0,31.0,47.0,financial deception involving falsified records,217.0
+fraud,medium,2.0,12.0,623.0,insurance fraud investigation,82.0
+fraud,medium,2.0,12.0,47.0,financial deception involving falsified records,83.0
+assault,high,2.0,30.0,1572.0,aggravated assault with a deadly weapon,335.0
+assault,high,2.0,30.0,38.0,violent assault with reported injuries,330.0
+assault,low,1.0,8.0,337.0,minor physical confrontation,48.0
+assault,low,1.0,8.0,46.0,physical attack involving multiple individuals,53.0
+theft,medium,1.0,12.0,969.0,theft case involving multiple stolen items,140.0
+theft,medium,1.0,12.0,38.0,illegal stealing with minimal evidence,130.0
+fraud,high,5.0,50.0,1400.0,international financial fraud network,303.0
+fraud,high,5.0,50.0,47.0,financial deception involving falsified records,304.0
+assault,low,1.0,4.0,336.0,minor physical confrontation,25.0
+assault,low,1.0,4.0,46.0,physical attack involving multiple individuals,34.0
+theft,high,5.0,33.0,1326.0,coordinated warehouse robbery,288.0
+theft,high,5.0,33.0,38.0,illegal stealing with minimal evidence,289.0
+fraud,high,3.0,30.0,1906.0,large scale embezzlement scheme,295.0
+fraud,high,3.0,30.0,41.0,economic fraud with manipulated documents,289.0
+fraud,high,4.0,59.0,1531.0,complex money laundering operation,337.0
+fraud,high,4.0,59.0,41.0,economic fraud with manipulated documents,333.0
+fraud,medium,1.0,20.0,830.0,insurance fraud investigation,97.0
+fraud,medium,1.0,20.0,47.0,financial deception involving falsified records,92.0
+assault,low,1.0,8.0,278.0,dispute between neighbors resulting in a push,28.0
+assault,low,1.0,8.0,38.0,violent assault with reported injuries,18.0
+assault,low,1.0,3.0,401.0,simple assault with no serious injuries,48.0
+assault,low,1.0,3.0,38.0,violent assault with reported injuries,50.0
+fraud,high,3.0,34.0,1928.0,international financial fraud network,228.0
+fraud,high,3.0,34.0,47.0,financial deception involving falsified records,226.0
+assault,low,1.0,5.0,248.0,verbal altercation leading to minor scuffle,47.0
+assault,low,1.0,5.0,38.0,violent assault with reported injuries,54.0
+theft,low,1.0,3.0,308.0,theft of personal belongings in public,42.0
+theft,low,1.0,3.0,31.0,unauthorized taking of property,50.0
+assault,high,3.0,44.0,1125.0,aggravated assault with a deadly weapon,322.0
+assault,high,3.0,44.0,46.0,physical attack involving multiple individuals,316.0
+fraud,medium,1.0,20.0,760.0,fraud case with forged contracts and financial investigation,72.0
+fraud,medium,1.0,20.0,47.0,financial deception involving falsified records,63.0
+fraud,medium,1.0,16.0,717.0,fraud case involving forged contracts,76.0
+fraud,medium,1.0,16.0,41.0,economic fraud with manipulated documents,81.0
+fraud,high,4.0,53.0,1262.0,complex money laundering operation,251.0
+fraud,high,4.0,53.0,41.0,economic fraud with manipulated documents,258.0
+theft,low,1.0,8.0,277.0,shoplifting at a retail store,25.0
+theft,low,1.0,8.0,38.0,illegal stealing with minimal evidence,33.0
+assault,low,1.0,5.0,431.0,simple assault with no serious injuries,31.0
+assault,low,1.0,5.0,46.0,physical attack involving multiple individuals,27.0
+theft,low,1.0,5.0,447.0,theft of personal belongings in public,25.0
+theft,low,1.0,5.0,38.0,illegal stealing with minimal evidence,27.0
+fraud,high,5.0,25.0,1934.0,large scale embezzlement scheme,329.0
+fraud,high,5.0,25.0,41.0,economic fraud with manipulated documents,330.0
+theft,medium,2.0,18.0,822.0,organized retail theft incident,100.0
+theft,medium,2.0,18.0,38.0,illegal stealing with minimal evidence,90.0
+fraud,medium,2.0,15.0,523.0,identity theft with multiple accounts,105.0
+fraud,medium,2.0,15.0,41.0,economic fraud with manipulated documents,98.0
+fraud,medium,1.0,19.0,988.0,fraud case with forged contracts and financial investigation,122.0
+fraud,medium,1.0,19.0,47.0,financial deception involving falsified records,119.0
+theft,high,3.0,60.0,1590.0,grand theft auto involving a syndicate,298.0
+theft,high,3.0,60.0,31.0,unauthorized taking of property,295.0
+assault,low,1.0,3.0,354.0,simple assault with no serious injuries,21.0
+assault,low,1.0,3.0,46.0,physical attack involving multiple individuals,11.0
+assault,low,1.0,8.0,473.0,minor physical confrontation,50.0
+assault,low,1.0,8.0,46.0,physical attack involving multiple individuals,59.0
+fraud,medium,1.0,13.0,983.0,fraud case with forged contracts and financial investigation,119.0
+fraud,medium,1.0,13.0,41.0,economic fraud with manipulated documents,125.0
+assault,medium,2.0,19.0,816.0,assault causing moderate bodily harm,115.0
+assault,medium,2.0,19.0,38.0,violent assault with reported injuries,116.0
+theft,medium,2.0,20.0,872.0,burglary of a residential property,115.0
+theft,medium,2.0,20.0,38.0,illegal stealing with minimal evidence,114.0
+fraud,low,1.0,3.0,353.0,minor credit card fraud,57.0
+fraud,low,1.0,3.0,41.0,economic fraud with manipulated documents,51.0
+fraud,low,1.0,6.0,229.0,unauthorized small transaction,35.0
+fraud,low,1.0,6.0,47.0,financial deception involving falsified records,42.0
+fraud,low,1.0,8.0,495.0,small scale fraud with limited financial loss,56.0
+fraud,low,1.0,8.0,47.0,financial deception involving falsified records,61.0
+theft,high,5.0,35.0,1142.0,grand theft auto involving a syndicate,328.0
+theft,high,5.0,35.0,38.0,illegal stealing with minimal evidence,325.0
+theft,medium,1.0,16.0,563.0,theft of high-value electronics,131.0
+theft,medium,1.0,16.0,38.0,illegal stealing with minimal evidence,125.0
+theft,low,1.0,4.0,499.0,simple theft case with one suspect,38.0
+theft,low,1.0,4.0,38.0,illegal stealing with minimal evidence,30.0
+fraud,low,1.0,6.0,315.0,unauthorized small transaction,51.0
+fraud,low,1.0,6.0,41.0,economic fraud with manipulated documents,57.0
+assault,low,1.0,4.0,338.0,simple assault with no serious injuries,27.0
+assault,low,1.0,4.0,46.0,physical attack involving multiple individuals,36.0
+fraud,medium,1.0,17.0,756.0,insurance fraud investigation,107.0
+fraud,medium,1.0,17.0,47.0,financial deception involving falsified records,103.0
+fraud,high,5.0,55.0,1971.0,financial fraud involving multiple fake documents and bank accounts,184.0
+fraud,high,5.0,55.0,47.0,financial deception involving falsified records,178.0
+theft,medium,2.0,20.0,828.0,theft of high-value electronics,136.0
+theft,medium,2.0,20.0,38.0,illegal stealing with minimal evidence,139.0
+theft,low,1.0,5.0,312.0,theft of personal belongings in public,38.0
+theft,low,1.0,5.0,38.0,illegal stealing with minimal evidence,47.0
+fraud,medium,1.0,14.0,858.0,identity theft with multiple accounts,131.0
+fraud,medium,1.0,14.0,47.0,financial deception involving falsified records,128.0
+fraud,medium,2.0,13.0,882.0,fraud case with forged contracts and financial investigation,112.0
+fraud,medium,2.0,13.0,41.0,economic fraud with manipulated documents,121.0
+fraud,medium,2.0,12.0,589.0,fraud case involving forged contracts,136.0
+fraud,medium,2.0,12.0,47.0,financial deception involving falsified records,136.0
+assault,high,4.0,49.0,1231.0,severe assault case with multiple victims and medical reports,272.0
+assault,high,4.0,49.0,46.0,physical attack involving multiple individuals,268.0
+assault,high,4.0,41.0,1534.0,assault resulting in critical injuries and long-term care,259.0
+assault,high,4.0,41.0,38.0,violent assault with reported injuries,255.0
+fraud,medium,2.0,13.0,620.0,identity theft with multiple accounts,138.0
+fraud,medium,2.0,13.0,47.0,financial deception involving falsified records,138.0
+theft,low,1.0,8.0,469.0,theft of personal belongings in public,40.0
+theft,low,1.0,8.0,31.0,unauthorized taking of property,43.0
+theft,low,1.0,4.0,213.0,minor theft with clear evidence,50.0
+theft,low,1.0,4.0,38.0,illegal stealing with minimal evidence,42.0
+fraud,medium,2.0,19.0,916.0,fraud case with forged contracts and financial investigation,90.0
+fraud,medium,2.0,19.0,41.0,economic fraud with manipulated documents,93.0
+fraud,medium,1.0,18.0,850.0,identity theft with multiple accounts,97.0
+fraud,medium,1.0,18.0,41.0,economic fraud with manipulated documents,88.0
+theft,high,2.0,55.0,1830.0,high-value jewelry heist,318.0
+theft,high,2.0,55.0,38.0,illegal stealing with minimal evidence,315.0
+assault,low,1.0,8.0,377.0,dispute between neighbors resulting in a push,45.0
+assault,low,1.0,8.0,46.0,physical attack involving multiple individuals,38.0
+theft,low,1.0,8.0,224.0,bicycle theft from residential area,33.0
+theft,low,1.0,8.0,31.0,unauthorized taking of property,29.0
+assault,low,1.0,6.0,497.0,simple assault with no serious injuries,25.0
+assault,low,1.0,6.0,46.0,physical attack involving multiple individuals,30.0
+fraud,medium,1.0,18.0,714.0,identity theft with multiple accounts,118.0
+fraud,medium,1.0,18.0,41.0,economic fraud with manipulated documents,111.0
+fraud,low,1.0,4.0,200.0,unauthorized small transaction,21.0
+fraud,low,1.0,4.0,41.0,economic fraud with manipulated documents,11.0
+fraud,medium,1.0,18.0,612.0,insurance fraud investigation,120.0
+fraud,medium,1.0,18.0,41.0,economic fraud with manipulated documents,117.0
+fraud,low,1.0,8.0,386.0,unauthorized small transaction,24.0
+fraud,low,1.0,8.0,47.0,financial deception involving falsified records,27.0
+assault,medium,1.0,13.0,646.0,assault causing moderate bodily harm,114.0
+assault,medium,1.0,13.0,46.0,physical attack involving multiple individuals,121.0
+fraud,low,1.0,8.0,208.0,small scale fraud with limited financial loss,31.0
+fraud,low,1.0,8.0,41.0,economic fraud with manipulated documents,21.0
+assault,high,4.0,38.0,1165.0,assault resulting in critical injuries and long-term care,297.0
+assault,high,4.0,38.0,46.0,physical attack involving multiple individuals,299.0
+fraud,high,2.0,38.0,1615.0,international financial fraud network,340.0
+fraud,high,2.0,38.0,47.0,financial deception involving falsified records,344.0
+fraud,high,2.0,51.0,1304.0,complex money laundering operation,230.0
+fraud,high,2.0,51.0,41.0,economic fraud with manipulated documents,240.0
+assault,high,3.0,29.0,1709.0,assault resulting in critical injuries and long-term care,199.0
+assault,high,3.0,29.0,38.0,violent assault with reported injuries,197.0
+fraud,medium,1.0,10.0,537.0,fraud case involving forged contracts,77.0
+fraud,medium,1.0,10.0,41.0,economic fraud with manipulated documents,75.0
+theft,high,5.0,48.0,1597.0,coordinated warehouse robbery,337.0
+theft,high,5.0,48.0,31.0,unauthorized taking of property,338.0
+assault,high,3.0,34.0,1921.0,severe assault case with multiple victims and medical reports,178.0
+assault,high,3.0,34.0,38.0,violent assault with reported injuries,188.0
+assault,high,3.0,37.0,1711.0,gang-related violent assault,198.0
+assault,high,3.0,37.0,46.0,physical attack involving multiple individuals,195.0
+assault,low,1.0,5.0,323.0,simple assault with no serious injuries,59.0
+assault,low,1.0,5.0,46.0,physical attack involving multiple individuals,52.0
+assault,high,4.0,40.0,1460.0,gang-related violent assault,309.0
+assault,high,4.0,40.0,38.0,violent assault with reported injuries,306.0
+theft,medium,1.0,17.0,903.0,burglary of a residential property,113.0
+theft,medium,1.0,17.0,31.0,unauthorized taking of property,108.0
+theft,high,3.0,27.0,1483.0,coordinated warehouse robbery,312.0
+theft,high,3.0,27.0,38.0,illegal stealing with minimal evidence,309.0
+fraud,high,2.0,29.0,1366.0,complex money laundering operation,207.0
+fraud,high,2.0,29.0,47.0,financial deception involving falsified records,203.0
+theft,low,1.0,7.0,371.0,theft of personal belongings in public,35.0
+theft,low,1.0,7.0,38.0,illegal stealing with minimal evidence,44.0
+theft,medium,2.0,10.0,592.0,theft case involving multiple stolen items,119.0
+theft,medium,2.0,10.0,31.0,unauthorized taking of property,109.0
+assault,low,1.0,8.0,408.0,verbal altercation leading to minor scuffle,40.0
+assault,low,1.0,8.0,38.0,violent assault with reported injuries,44.0
+theft,medium,1.0,20.0,758.0,organized retail theft incident,83.0
+theft,medium,1.0,20.0,38.0,illegal stealing with minimal evidence,87.0
+fraud,medium,1.0,18.0,821.0,fraud case involving forged contracts,96.0
+fraud,medium,1.0,18.0,47.0,financial deception involving falsified records,100.0
+assault,high,5.0,56.0,1432.0,aggravated assault with a deadly weapon,217.0
+assault,high,5.0,56.0,38.0,violent assault with reported injuries,220.0
+theft,medium,2.0,14.0,824.0,burglary of a residential property,138.0
+theft,medium,2.0,14.0,38.0,illegal stealing with minimal evidence,136.0
+fraud,high,2.0,30.0,1451.0,large scale embezzlement scheme,176.0
+fraud,high,2.0,30.0,41.0,economic fraud with manipulated documents,186.0
+fraud,high,5.0,26.0,1651.0,complex money laundering operation,227.0
+fraud,high,5.0,26.0,47.0,financial deception involving falsified records,224.0
+theft,high,4.0,48.0,1367.0,coordinated warehouse robbery,169.0
+theft,high,4.0,48.0,38.0,illegal stealing with minimal evidence,172.0
+fraud,low,1.0,8.0,374.0,small scale fraud with limited financial loss,26.0
+fraud,low,1.0,8.0,41.0,economic fraud with manipulated documents,22.0
+assault,medium,1.0,14.0,784.0,assault causing moderate bodily harm,83.0
+assault,medium,1.0,14.0,38.0,violent assault with reported injuries,90.0
+assault,low,1.0,8.0,480.0,verbal altercation leading to minor scuffle,49.0
+assault,low,1.0,8.0,46.0,physical attack involving multiple individuals,47.0
+fraud,high,5.0,49.0,1311.0,complex money laundering operation,193.0
+fraud,high,5.0,49.0,41.0,economic fraud with manipulated documents,200.0
+fraud,low,1.0,6.0,222.0,small scale fraud with limited financial loss,26.0
+fraud,low,1.0,6.0,47.0,financial deception involving falsified records,31.0
+assault,low,1.0,7.0,305.0,simple assault with no serious injuries,57.0
+assault,low,1.0,7.0,46.0,physical attack involving multiple individuals,50.0
+fraud,medium,2.0,17.0,720.0,identity theft with multiple accounts,107.0
+fraud,medium,2.0,17.0,41.0,economic fraud with manipulated documents,103.0
+theft,medium,2.0,11.0,631.0,theft of high-value electronics,72.0
+theft,medium,2.0,11.0,38.0,illegal stealing with minimal evidence,63.0
+assault,low,1.0,4.0,231.0,verbal altercation leading to minor scuffle,45.0
+assault,low,1.0,4.0,46.0,physical attack involving multiple individuals,37.0
+fraud,medium,1.0,10.0,532.0,identity theft with multiple accounts,93.0
+fraud,medium,1.0,10.0,41.0,economic fraud with manipulated documents,94.0
+assault,high,4.0,32.0,1110.0,severe assault case with multiple victims and medical reports,161.0
+assault,high,4.0,32.0,46.0,physical attack involving multiple individuals,166.0
+fraud,low,1.0,4.0,448.0,minor credit card fraud,58.0
+fraud,low,1.0,4.0,41.0,economic fraud with manipulated documents,55.0
+fraud,medium,1.0,20.0,792.0,insurance fraud investigation,109.0
+fraud,medium,1.0,20.0,47.0,financial deception involving falsified records,100.0
+assault,low,1.0,7.0,334.0,dispute between neighbors resulting in a push,49.0
+assault,low,1.0,7.0,46.0,physical attack involving multiple individuals,59.0
+fraud,high,3.0,47.0,1670.0,international financial fraud network,288.0
+fraud,high,3.0,47.0,41.0,economic fraud with manipulated documents,283.0
+assault,low,1.0,8.0,215.0,dispute between neighbors resulting in a push,56.0
+assault,low,1.0,8.0,38.0,violent assault with reported injuries,51.0
+theft,low,1.0,3.0,333.0,shoplifting at a retail store,37.0
+theft,low,1.0,3.0,31.0,unauthorized taking of property,42.0
+fraud,high,5.0,36.0,1419.0,international financial fraud network,337.0
+fraud,high,5.0,36.0,41.0,economic fraud with manipulated documents,327.0
+assault,high,5.0,57.0,1260.0,assault resulting in critical injuries and long-term care,225.0
+assault,high,5.0,57.0,38.0,violent assault with reported injuries,223.0
+theft,medium,2.0,20.0,867.0,burglary of a residential property,95.0
+theft,medium,2.0,20.0,31.0,unauthorized taking of property,103.0
+fraud,low,1.0,6.0,216.0,small scale fraud with limited financial loss,33.0
+fraud,low,1.0,6.0,41.0,economic fraud with manipulated documents,32.0
+

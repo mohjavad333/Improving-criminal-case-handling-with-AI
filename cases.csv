@@ -1,4 +1,6 @@
 crime_type,complexity,num_defendants,num_documents,text_length,case_text,processing_days
+
+
 homicide,high,6,34,1147,negligent homicide involving an unsecured firearm,226
 fraud,high,2,67,2317,embezzlement of funds by a corporate accountant,192
 burglary,medium,3,25,901,theft of a bicycle from a locked residential porch,111

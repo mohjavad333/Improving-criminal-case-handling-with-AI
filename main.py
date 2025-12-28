@@ -1,15 +1,14 @@
-# =========================
-# AI Court Project
-# Predicting Case Processing Time
-# =========================
 
 import pandas as pd
+import numpy as np
 
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.svm import SVR
 from sklearn.metrics import mean_absolute_error
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
 
 
 # -------------------------
@@ -19,14 +18,19 @@ df = pd.read_csv("cases.csv")
 
 
 # -------------------------
-# 2. NLP: TF-IDF on case text
+# 2. NLP: Stronger TF-IDF
 # -------------------------
-tfidf = TfidfVectorizer(max_features=5)
+tfidf = TfidfVectorizer(
+    max_features=50,
+    ngram_range=(1, 2),
+    stop_words="english"
+)
+
 text_features = tfidf.fit_transform(df["case_text"])
 
 text_df = pd.DataFrame(
     text_features.toarray(),
-    columns=[f"text_feat_{i}" for i in range(text_features.shape[1])]
+    columns=tfidf.get_feature_names_out()
 )
 
 
@@ -34,20 +38,29 @@ text_df = pd.DataFrame(
 # 3. Encode Categorical Data
 # -------------------------
 df_no_text = df.drop(columns=["case_text"])
-df_encoded = pd.get_dummies(df_no_text, columns=["crime_type", "complexity"])
 
+df_encoded = pd.get_dummies(
+    df_no_text,
+    columns=["crime_type", "complexity"],
+    drop_first=True
+)
+
+
+# -------------------------
+# 4. Combine All Features
+# -------------------------
 df_final = pd.concat(
     [
-        df_encoded.drop("processing_days", axis=1),
-        text_df,
-        df_encoded["processing_days"]
+        df_encoded.drop("processing_days", axis=1).reset_index(drop=True),
+        text_df.reset_index(drop=True),
+        df_encoded["processing_days"].reset_index(drop=True)
     ],
     axis=1
 )
 
 
 # -------------------------
-# 4. Split Input and Output
+# 5. Split Input / Output
 # -------------------------
 X = df_final.drop("processing_days", axis=1)
 y = df_final["processing_days"]
@@ -56,7 +69,7 @@ feature_names = X.columns
 
 
 # -------------------------
-# 5. Train-Test Split
+# 6. Train-Test Split
 # -------------------------
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.3, random_state=42
@@ -64,49 +77,68 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 
 # -------------------------
-# 6. Decision Tree Model
+# 7. Decision Tree (Nonlinear, Rule-Based)
 # -------------------------
-dt_model = DecisionTreeRegressor(max_depth=4, random_state=42)
-dt_model.fit(X_train, y_train)
+dt_model = DecisionTreeRegressor(
+    max_depth=6,
+    min_samples_leaf=5,
+    random_state=42
+)
 
+dt_model.fit(X_train, y_train)
 dt_pred = dt_model.predict(X_test)
+
 dt_mae = mean_absolute_error(y_test, dt_pred)
 
 
 # -------------------------
-# 7. SVM Model
+# 8. SVM Pipeline (Scaled, Smooth)
 # -------------------------
-svm_model = SVR(kernel="rbf")
-svm_model.fit(X_train, y_train)
+svm_pipeline = Pipeline(
+    steps=[
+        ("scaler", StandardScaler()),
+        ("svm", SVR(
+            kernel="rbf",
+            C=50,
+            epsilon=5,
+            gamma="scale"
+        ))
+    ]
+)
 
-svm_pred = svm_model.predict(X_test)
+svm_pipeline.fit(X_train, y_train)
+svm_pred = svm_pipeline.predict(X_test)
+
 svm_mae = mean_absolute_error(y_test, svm_pred)
 
 
 # -------------------------
-# 8. Results
+# 9. Results
 # -------------------------
-print("Decision Tree MAE:", dt_mae)
-print("SVM MAE:", svm_mae)
+print("Decision Tree MAE:", round(dt_mae, 2))
+print("SVM MAE:", round(svm_mae, 2))
 
 
 # -------------------------
-# 9. Predict New Case
+# 10. Predict New Case (Correct Way)
 # -------------------------
-new_case = pd.DataFrame(columns=feature_names)
-new_case.loc[0] = 0
+new_case = pd.DataFrame(0, columns=feature_names, index=[0])
 
-new_case.at[0, "num_defendants"] = 2
-new_case.at[0, "num_documents"] = 14
-new_case.at[0, "text_length"] = 700
-new_case.at[0, "crime_type_fraud"] = 1
-new_case.at[0, "complexity_medium"] = 1
+new_case["num_defendants"] = 10
+new_case["num_documents"] = 14
+new_case["text_length"] = 5000
+new_case["crime_type_fraud"] = 1
+new_case["complexity_medium"] = 1
 
 dt_prediction = dt_model.predict(new_case)
-svm_prediction = svm_model.predict(new_case)
+svm_prediction = svm_pipeline.predict(new_case)
 
 print("\nPredicted processing days (Decision Tree):", int(dt_prediction[0]))
 print("Predicted processing days (SVM):", int(svm_prediction[0]))
 
-print("\nTop NLP keywords:")
-print(tfidf.get_feature_names_out())
+
+# -------------------------
+# 11. Top NLP Keywords
+# -------------------------
+print("\nTop NLP keywords used:")
+print(tfidf.get_feature_names_out()[:15])
